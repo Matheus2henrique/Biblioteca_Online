@@ -1,0 +1,25 @@
+/* Estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #F5F5F5;
+  color: #333333;
+}
+
+a {
+  text-decoration: none;
+  color: #1E88E5;
+}
+
+a:hover {
+  color: #1565C0;
+}
+
+button {
+  cursor: pointer;
+}

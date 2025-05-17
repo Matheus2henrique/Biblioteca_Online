@@ -1,0 +1,15 @@
+<ul class="listChapters">
+  <li *ngFor="let chapter of chapters" class="mb-2">
+    <a [routerLink]="['/book', bookId, 'chapter', chapter.id]"
+       class="titleChapters">{{ chapter.title }}</a>
+  </li>
+</ul>
+
+
+<!-- <select name="choiceChapters" id="choice">
+
+  <option value="">Escolha</option>
+  <option *ngFor="let chapter of chapters" class="mb-2" value=""> <a [routerLink]="['/book', bookId, 'chapter', chapter.id]"
+    class="text-blue-600 hover:underline">{{ chapter.title }}</a></option>
+
+</select> -->

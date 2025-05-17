@@ -1,0 +1,42 @@
+.chapter-list {
+  width: 200px;
+  background: #F5F5F5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.chapter-list h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.chapter-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.chapter-list li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #333333;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.chapter-list li:hover {
+  background: #fcfdfe;
+  color: #FFFFFF;
+}
+
+a:visited{
+  color: rgb(54, 42, 165) ;
+}
+
+.titleChapters{
+  color: #000;
+}

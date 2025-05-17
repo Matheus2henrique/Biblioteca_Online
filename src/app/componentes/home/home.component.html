@@ -1,0 +1,47 @@
+<div class="container">
+  <header>
+    <div class="logo">
+      <img src="https://cdn-icons-png.freepik.com/256/9972/9972137.png?semt=ais_hybrid" alt="Biblioteca Online">
+      <!-- <img src="/src/assets/imgs/9972137.png" alt="ewwef"> -->
+      <h1>Biblioteca Online</h1>
+    </div>
+    <nav>
+      <a routerLink="/home">Home</a>
+      <!-- <a routerLink="/search">Buscar</a> -->
+      <a routerLink="/??">Minha Lista</a>
+      <!-- <a (click)="logout()">Sair</a> -->
+    </nav>
+  </header>
+
+  <section class="search">
+    <input type="text" placeholder="Buscar livros por título ou autor...">
+    <button>Buscar</button>
+  </section>
+
+  <!-- <section class="featured">
+    <h2>Livros em Destaque</h2>
+    <div class="book-grid">
+      <div *ngFor="let book of featuredBooks" class="book-card">
+        <img [src]="book.coverImage" [alt]="book.title">
+        <h3>{{ book.title }}</h3>
+        <p>{{ book.author }}</p>
+        <a routerLink="/book/{{ book.id }}" class="btn">Ver Detalhes</a>
+      </div>
+    </div>
+  </section> -->
+</div>
+
+<div >
+  <!-- <h1 class="titulo">Biblioteca</h1> -->
+  <div class="livros">
+    <a *ngFor="let book of books" [routerLink]="['/book', book.id]" class="descri">
+      <div class="colecao">
+        <img *ngIf="book.coverImagem" [src]="book.coverImagem" [alt]="book.title" class="capa">
+        <h2 class="title">{{ book.title }}</h2>
+        <p class="title">{{ book.author }}</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+

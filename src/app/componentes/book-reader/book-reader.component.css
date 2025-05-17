@@ -1,0 +1,80 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background: rgb(188, 180, 180); */
+  background-color: #8a8a8a ;
+}
+
+.body{
+  background-color: #8a8a8a ;
+  /* background: rgb(188, 180, 180); */
+}
+
+.voltar{
+  color: #fdfdfd;
+}
+
+.chapter {
+  margin-bottom: 20px;
+}
+
+.chapters{
+  margin-left: 15px;
+}
+
+.livro {
+  text-align: justify;
+  /* margin: 60px; */
+  line-height: 1.7;
+  font-size: 18px;
+  padding: 10px;
+  background: #fdfdfd;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.capBack,
+.buttonNextChapter {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  color: rgb(247, 244, 244);
+  background-color:  rgb(54, 42, 165);
+  cursor: pointer;
+}
+
+.titleChapter{
+  padding-top: 10px;
+}
+
+.capBack:hover,
+.buttonNextChapter:hover {
+  background-color:  #72939c;
+}
+
+@media (max-width: 600px) {
+  .text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .livro {
+    font-size: 16px;
+  }
+}
+
+.load {
+  font-size: 18px;
+  text-align: center;
+  padding: 40px;
+  color: #333;
+}
