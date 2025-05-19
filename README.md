@@ -1,7 +1,7 @@
-*📚 Biblioteca Online
+# 📚 Biblioteca Online
 Uma aplicação web moderna e responsiva de biblioteca online, desenvolvida com Angular no frontend, Java no backend e persistência de dados gerenciada com Hibernate. Os livros são armazenados e consumidos em formato JSON, permitindo leitura organizada por capítulos diretamente na aplicação.
 
-*🚀 Tecnologias Utilizadas
+# 🚀 Tecnologias Utilizadas
 Frontend: Angular
 
 * Backend: Java (Spring Boot)
@@ -12,7 +12,7 @@ Frontend: Angular
 
 * Formato dos Livros: JSON (organizado por capítulos)
 
-* 🎯 Funcionalidades
+# 🎯 Funcionalidades
 
 * Página Home com destaques de livros (capas, títulos e autores)
 
